@@ -60,20 +60,6 @@ To build the app for production:
 `npm run build`
 The production-ready files will be generated in the dist/ folder.
 
-## Folder Structure
-
-.
-├── public/            # Public assets
-├── src/
-│   ├── components/    # React components (Users, UserDetail)
-│   ├── helper/        # Axios helper for API calls
-│   ├── App.jsx        # Main application file
-│   ├── main.jsx       # Entry point for Vite + React
-│   └── index.css      # Global styles
-├── .env               # Environment variables
-├── package.json       # Dependencies and scripts
-└── vite.config.js     # Vite configuration
-
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
