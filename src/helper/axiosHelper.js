@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 const apiEndPoint = import.meta.env.VITE_ROOT_API
+console.log('API path:', apiEndPoint)
 const userAPI = apiEndPoint + "/users"
 
 export const fetchUsers = async () => {
